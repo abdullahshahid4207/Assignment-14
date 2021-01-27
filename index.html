@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Calculator App</h1>
+    
+    <div id="main">
+        <div id="calculator">
+            <div id="inp">
+                <input id="inp1" type="text" disabled>
+            </div>
+            <br>
+            <div class="btn">
+                <button onclick="clearing()"id="btns">C</button>
+                <button onclick="store('+')"class="btns">+</button>
+                <button onclick="store('1')"class="btns">1</button>
+                <button onclick="store('2')"class="btns">2</button>
+                <button onclick="store('3')"class="btns">3</button>
+                <button onclick="store('-')"class="btns">-</button>
+                <button onclick="store('4')"class="btns">4</button>
+                <button onclick="store('5')"class="btns">5</button>
+                <button onclick="store('6')"class="btns">6</button>
+                <button onclick="store('*')"class="btns">*</button>
+                <button onclick="store('7')"class="btns">7</button>
+                <button onclick="store('8')"class="btns">8</button>
+                <button onclick="store('9')"class="btns">9</button>
+                <button onclick="store('/')"class="btns">/</button>
+                <button onclick="store('.')"class="btns">.</button>
+                <button onclick="store('0')"class="btns">0</button>
+                <button onclick="store('00')"class="btns">00</button>
+                <button onclick="result()" class="btns">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

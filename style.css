@@ -1,0 +1,58 @@
+body h1{
+    position: absolute;
+    top: 2px;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    background-color: aqua;
+}
+body{
+    overflow: hidden;
+}
+#inp{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#inp1{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    background-color: #fff;
+    width: 320px;
+    height: 40px;
+}
+#calculator{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    padding: 30px;
+    width: 310px;
+    height: 390px;
+    border-radius: 10px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn{
+    position: absolute;
+    top: 85px;
+    left: 18px;
+}
+.btns{
+    font-size: 24px;
+    font-weight: bold;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+}
+#btns{
+    font-size: 24px;
+    font-weight: bold;
+    width: 238px;
+    height: 60px;
+    margin: 5px;
+}
